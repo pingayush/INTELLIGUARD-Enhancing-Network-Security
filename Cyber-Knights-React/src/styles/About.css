@@ -1,0 +1,74 @@
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+    format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.about {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  
+  .aboutBottom span {
+    width: auto;
+    margin-bottom: auto;
+  }
+  
+  /* .about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+    cursor: pointer; 
+    transition: color 0.3s; 
+  }
+  
+  .about .aboutBottom h1:hover {
+    color: rgb(15, 238, 246); 
+  } */
+  
+  .about .aboutBottom h1 {
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #c5e73a;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 2.5rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0px #07bccc,
+      15px 15px 0px #e601c0,
+      20px 20px 0px #e9019a,
+      25px 25px 0px #f40468,
+      45px 45px 10px #482896;
+    cursor: pointer;
+  }
+  
+  .about .aboutBottom h1:hover {
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: none;
+  }
